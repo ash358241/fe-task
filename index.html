@@ -12,17 +12,21 @@
     <main>
         <section>
             <h4>Write Long URL:</h4>
-            <div>
+            <form id="form">
                 <input type="text" class="inp" name="" id="urlInput" placeholder="Type long url here">
-                <button id="urlBtn" class="btn" onclick="">Generate Short URL</button>
-            </div>
+                <button id="urlBtn" type="submit" class="btn">Generate Short URL</button>
+            </form>
             <div class="article">
-                <h5>Your short URL is: <span>short url</span></h5>
-                <button class="articleBtn">copy</button>
+                <h4>Your short URL is: </h4>
+                <span id="shortLink">Short URL will be generated here</span>
+                <button id="copyBtn">copy link</button>
             </div>
         </section>
+        <div class="result">
+
+        </div>
     
-        <section>
+        <section style="margin-top: 50px">
             <h4>Write Short URL:</h4>
             <div>
                 <input type="text" class="inp" name="" id="" placeholder="Type short url here">
@@ -30,7 +34,7 @@
             </div>
             <div class="article">
                 <h5>The original URL is: <span>long url</span></h5>
-                <button class="articleBtn">copy</button>
+                <button id="copyBtn">copy</button>
             </div>
         </section>
     </main>
