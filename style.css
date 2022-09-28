@@ -1,0 +1,25 @@
+.article{
+    display: flex;
+    /* border: 2px solid black; */
+}
+
+.articleBtn{
+    border: none;
+    background: none;
+    color: green;
+    cursor: pointer;
+}
+
+.btn{
+    background: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-left: 5px;
+    border: 1px solid green;
+    outline: none;
+}
+
+.inp{
+    padding: 10px;
+}
