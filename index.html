@@ -9,7 +9,7 @@
 </head>
 <body>
     
-    <main>
+    <main style="margin-left: 20px">
         <section>
             <h4>Write Long URL:</h4>
             <form id="form">
@@ -28,13 +28,14 @@
     
         <section style="margin-top: 50px">
             <h4>Write Short URL:</h4>
-            <div>
-                <input type="text" class="inp" name="" id="" placeholder="Type short url here">
+            <form id="formTwo">
+                <input type="text" class="inp" name="" id="urlTwo" placeholder="Type short url here">
                 <button id="urlBtn" class="btn">Generate Long URL</button>
-            </div>
+            </form>
             <div class="article">
-                <h5>The original URL is: <span>long url</span></h5>
-                <button id="copyBtn">copy</button>
+                <h4>The original URL is: </h4>
+                <span id="longLink">long url</span>
+                <button id="copyBtnTwo">copy</button>
             </div>
         </section>
     </main>

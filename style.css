@@ -9,7 +9,7 @@ body {
     min-height: 100vh;
 }
 
-#copyBtn{
+#copyBtn, #copyBtnTwo{
     border: none;
     background: none;
     color: green;
